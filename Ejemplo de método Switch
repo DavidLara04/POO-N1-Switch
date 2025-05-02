@@ -23,6 +23,10 @@ public class Persona {
     }
 }
 
-- Uso
-Persona p3 = new Persona("Femenino");
-p3.mostrarGenero();
+- Uso en el método main
+public class Main {
+    public static void main(String[] args) {
+        Persona persona3 = new Persona("Femenino");
+        persona3.mostrarGenero();
+    }
+}
